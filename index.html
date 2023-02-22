@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wakako's Portfolio via UX/UI Bootcamp</title>
+        <link rel="stylesheet" href="CSS/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body> 
+        <div class="topnav">
+            <a href="index.html" class="active"><img src="/images/New Logo.svg" width="60"></a>
+            <div class="menu">
+                <a href="#contact">Contact</a>
+                <a href="myUXSkills.html">My Skills</a>
+                <a href="myWork.html">My Work</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div class="content" style="padding-left:16px">
+            <h2>Hi, I'm Wakako!</h2>
+
+<!-- UI Animation -->
+            <div class="cta" id="section1">
+                <a href="#section2">Scroll Down To My Work</a>
+            </div>
+
+
+            <p>I am a human-centered UX designer focused on building products from a place of empathy and research. 
+                I have a background in both design and engineering that help me understand how to create beautiful products 
+                and create an atmosphere where empathy is at the forefront of every design.</p>
+            <img src="images/IMG_3076 1.svg" width="600">
+        </div>
+
+        <script>
+            function myFunction() {
+              let x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+
+<!-- Scrolls to here -->
+<section class="myWork">
+    <div class="cta" id="section2">
+       <a href="#section1">
+            <h1>My Work</h1>
+       </a>
+    </div>
+
+    <div class="workGrid">
+        <div class="image1">
+            <img src="images/Project1.png" width="300">
+        </div>
+        <div class="item1">
+            <h4>Government Agency Project</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <button>View</button>
+        </div>
+        <div class="image2">
+            <img src="images/Project1.png" width="300">
+        </div>
+        <div class="item2">
+            <h4>Government Agency Project</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <button>View</button>
+        </div>
+        <div class="image3">
+            <img src="images/Project1.png" width="300">
+        </div>
+        <div class="item3">
+            <h4>Government Agency Project</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <button>View</button>
+        </div>
+        <div class="image4">
+            <img src="images/Project1.png" width="300">
+        </div>
+        <div class="item4">
+            <h4>Government Agency Project</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            <button>View</button>
+        </div>
+        </div>
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    </body>
+</html>
+            

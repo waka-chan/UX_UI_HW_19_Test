@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wakako's Portfolio via UX/UI Bootcamp</title>
+        <link rel="stylesheet" href="CSS/myUXSkills.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body> 
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active"><img src="/images/New Logo.svg" width="60"></a>
+            <div class="menu">
+                <a href="#contact">Contact</a>
+                <a href="myUXSkills.html">My Skills</a>
+                <a href="myWork.html">My Work</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+              let x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
+    <!--  My UX Skills section coded using CSS flex -->
+        <section class="mySkills">
+            <h1>My UX Skills</h1>
+            <div class="flexContainer">
+                <div>
+                    <img src="/images/illustration.png" width="100">
+                    <h3>UI & Visual Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+                <div>
+                    <img src="/images/illustration.png" width="100">
+                    <h3>UI & Visual Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+                <div>
+                    <img src="/images/illustration.png" width="100">
+                    <h3>UI & Visual Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+            </div>
+
+        </section>
+    </body>
+</html>
+            
